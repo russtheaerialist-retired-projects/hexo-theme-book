@@ -1,0 +1,12 @@
+extends base.jade
+block content
+    a(href="#{config.root}").read-more Read the entire novel
+
+    article.article.clear
+        header.header
+          h1= page.title
+        != page.content
+
+    a(href="#{config.root}").read-more Read the entire novel
+
+    != partial("_partials/author.jade")
