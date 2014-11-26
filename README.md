@@ -10,3 +10,5 @@ See [Pull Request](https://github.com/hexojs/hexo/pull/936) to determine
 which release of Hexo it's available in.
 
 _config.yml for the theme is where you set your author bio and picture url.
+
+See an example here: [theme demo](http://themes.russellhay.com/book/)

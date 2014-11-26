@@ -3,7 +3,7 @@ html(lang='en')
     head
         title #{config.title} by #{config.author}
         script(src='http://nqlc725j47wafir1.zippykid.netdna-cdn.com/scripts/lib/modernizr.min.js')
-        link(href="/css/main.css", rel="stylesheet")
+        link(href="#{config.root}/css/main.css", rel="stylesheet")
     body
         header#header
             h1= config.title
