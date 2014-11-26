@@ -1,0 +1,12 @@
+doctype html
+html(lang='en')
+    head
+        title #{config.title} by #{config.author}
+        script(src='http://nqlc725j47wafir1.zippykid.netdna-cdn.com/scripts/lib/modernizr.min.js')
+        link(href="/css/main.css", rel="stylesheet")
+    body
+        header#header
+            h1= config.title
+        block content
+        footer#footer.clear
+            | copyright #{config.author} &copy; 2015 - A work in progress - All Rights Reserved
