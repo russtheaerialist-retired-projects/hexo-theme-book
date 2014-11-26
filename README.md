@@ -11,4 +11,14 @@ which release of Hexo it's available in.
 
 _config.yml for the theme is where you set your author bio and picture url.
 
+### Screenshots
+
+#### Header
+
+![alt tag](//raw.github.com/RussTheAerialist/hexo-theme-book/master/screenshots/header.png)
+
+#### Footer
+
+![alt tag](//raw.github.com/RussTheAerialist/hexo-theme-book/master/screenshots/footer.png)
+
 See an example here: [theme demo](http://themes.russellhay.com/book/)
