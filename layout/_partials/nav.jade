@@ -1,4 +1,4 @@
 if page.prev
-    a.prev.nav(href=url_for(page.prev_link)) &larr; Previous Chapter
+    a.prev.nav(href=url_for(page.prev_link)) &larr; Previous #{theme.page_name}
 if page.next
-    a.next.nav(href=url_for(page.next_link)) Next Chapter &rarr;
+    a.next.nav(href=url_for(page.next_link)) Next #{theme.page_name} &rarr;
